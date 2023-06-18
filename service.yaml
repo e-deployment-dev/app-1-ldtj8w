@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: app-1-system-6tdks4-service
+  namespace: default
+  labels:
+    service: app-1-system-6tdks4
+spec:
+  selector:
+    app: app-1-system-6tdks4
+  type: NodePort
+  ports:
+    - name: app-1-system-6tdks4-port
+      protocol: TCP
+      port: 80
+      targetPort: 80
