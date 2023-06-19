@@ -4,7 +4,6 @@ metadata:
     labels:
         app: app-1-system-6tdks4
     name: app-1-system-6tdks4-deploy
-    namespace: default
 spec:
     replicas: 3
     selector:
