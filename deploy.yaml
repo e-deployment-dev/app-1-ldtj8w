@@ -5,7 +5,7 @@ metadata:
         app: app-1-system-6tdks4
     name: app-1-system-6tdks4-deploy
 spec:
-    replicas: 3
+    replicas: 1
     selector:
         matchLabels:
             app: app-1-system-6tdks4
