@@ -4,7 +4,7 @@ metadata:
     labels:
         app: app-1-system-6tdks4
     name: app-1-system-6tdks4-deploy
-    namespace: argocd
+    namespace: default
 spec:
     replicas: 1
     selector:
